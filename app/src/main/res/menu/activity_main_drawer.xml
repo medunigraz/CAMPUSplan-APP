@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_map"
+            android:title="Karte" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_buildings"
+            android:title="Raumsuche" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_people"
+            android:title="Personensuche" />
+    </group>
+
+    <item android:title="Kommunikation">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_news"
+                android:title="Neugigkeiten" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_calendar"
+                android:title="Veranstaltungen" />
+        </menu>
+    </item>
+
+</menu>
