@@ -4,28 +4,28 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_map"
-            android:title="Karte" />
+            android:icon="@drawable/ic_menu_map"
+            android:title="@string/menu_map" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_buildings"
-            android:title="Raumsuche" />
+            android:icon="@drawable/ic_menu_search_rooms"
+            android:title="@string/menu_search_rooms" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_people"
-            android:title="Personensuche" />
+            android:icon="@drawable/ic_menu_search_people"
+            android:title="@string/menu_search_people" />
     </group>
 
-    <item android:title="Kommunikation">
+    <item android:title="@string/communication">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_news"
-                android:title="Neugigkeiten" />
+                android:icon="@drawable/ic_menu_news"
+                android:title="@string/menu_news" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_calendar"
-                android:title="Veranstaltungen" />
+                android:icon="@drawable/ic_menu_events"
+                android:title="@string/menu_events" />
         </menu>
     </item>
 

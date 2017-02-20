@@ -5,4 +5,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="app_organization">Medizinische Universität Graz</string>
+    <string name="menu_map">Karte</string>
+    <string name="menu_search_rooms">Raumsuche</string>
+    <string name="menu_search_people">Personensuche</string>
+    <string name="menu_news">Neugigkeiten</string>
+    <string name="menu_events">Veranstaltungen</string>
+    <string name="communication">Kommunikation</string>
 </resources>
